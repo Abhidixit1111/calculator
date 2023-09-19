@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .mainTitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  .mycolumn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .myButton {
+    /* padding: 20px;
+    margin-right: 5px;*/
+    margin: 5px; 
+    width: 47px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .allButtons {
+    display: flex;
+    /* margin-left: 40%; */
+    /* justify-self: center; */
+    /* align-self: center; */
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    width: 250px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+  }
+  
+  #myDisplay {
+    font-size: 25px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 160px;
+  }
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+Button:hover{
+  transform: scale(1.1);
+  border-color: white;
+}
